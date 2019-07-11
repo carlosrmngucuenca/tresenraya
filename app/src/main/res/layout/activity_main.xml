@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padinpantalla"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:background="@drawable/fondo"
+    tools:context="com.example.danny.tresenraya.MainActivity">
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="2dp"
+        android:layout_weight="0.5"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            style="@style/titulo"
+            android:text="@string/app_name"
+            />
+        <Button
+
+            android:id="@+id/unjugador"
+            android:text="@string/un_jugador"
+            style="@style/boton"
+
+            />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/configd"
+            >
+            <RadioButton
+                android:id="@+id/facil"
+                style="@style/radio"
+                android:text="@string/facil"
+
+
+                />
+            <RadioButton
+                android:id="@+id/normal"
+                style="@style/radio"
+                android:text="@string/normal"
+
+
+                />
+            <RadioButton
+                android:id="@+id/imposible"
+                style="@style/radio"
+                android:text="@string/Imposible"
+
+
+                />
+
+        </RadioGroup>
+       <Button
+           android:text="@string/dos_jugadores"
+           style="@style/boton"
+           android:id="@+id/dosjugadores"
+           />
+        ></LinearLayout>
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="2dp"
+        android:layout_weight="0.5"
+        />
+
+     <GridLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_vertical"
+         android:columnCount="3"
+         android:rowCount="3">
+    <ImageView
+
+             android:id="@+id/casilla1"
+             style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla2"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla3"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla4"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla5"
+        android:src="@drawable/circulo"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla6"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla7"
+        android:src="@drawable/aspa"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla8"
+        style="@style/casilla" />
+    <ImageView
+
+        android:id="@+id/casilla9"
+        style="@style/casilla" />
+
+
+     </GridLayout>
+
+</LinearLayout>

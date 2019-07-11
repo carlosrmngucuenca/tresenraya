@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tresenraya</string>
+    <string name="un_jugador">1 jugador</string>
+    <string name="dos_jugadores">2 jugador</string>
+    <string name="facil">facil</string>
+    <string name="normal">normal</string>
+    <string name="Imposible">Imposible</string>
+    <string name="casilla">casilla</string>
+    <string name="cirsulo_ganan">criculos ganan</string>
+    <string name="aspas_ganan">aspas ganan</string>
+    <string name="enpate">enpate</string>
+
+
+</resources>
